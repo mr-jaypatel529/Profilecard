@@ -4,3 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
         speed: 400,
     });
 });
+
+$(document).ready(function() {
+  $(".click-effect").click(function() {
+    $(this).animate({ marginLeft: "50px" }, "slow");
+  });
+});
+
